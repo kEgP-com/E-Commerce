@@ -1,0 +1,336 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+.box {
+    position: absolute;
+    top: -204px;
+    left: -158px;
+    filter: blur(150px);
+    background-color: #fff;
+    width: 1991px;
+    height: 885px;
+}
+.explore-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #e6e7e9, #6f9bdd 43.4%, #564b9a 75.9%);
+    width: 182px;
+    height: 50px;
+    cursor: pointer;
+}
+.sign-up {
+    position: absolute;
+    top: 6px;
+    left: 40px;
+    font-weight: 600;
+}
+.right-arrow-icon {
+    position: absolute;
+    top: 5px;
+    left: 143px;
+    width: 21px;
+    height: 41px;
+    object-fit: cover;
+}
+.explore {
+    position: absolute;
+    top: 35px;
+    left: 1218px;
+    width: 182px;
+    height: 50px;
+    cursor: pointer;
+    color: #fff;
+    font-family: Jost;
+}
+.logo {
+    position: absolute;
+    top: 17px;
+    left: 42px;
+    width: 103px;
+    height: 101px;
+    object-fit: cover;
+}
+.home {
+    position: relative;
+    font-weight: 600;
+    cursor: pointer;
+}
+.contact-us {
+    position: relative;
+    font-weight: 600;
+}
+.navigation {
+    position: absolute;
+    top: 41px;
+    left: 502px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    color: #120b3b;
+    font-family: Jost;
+}
+.cart-child {
+    position: absolute;
+    top: 146px;
+    left: 43px;
+    filter: blur(60px);
+    border-radius: 30px;
+    background-color: #9f99c6;
+    width: 873px;
+    height: 555px;
+}
+.cart-item {
+    position: absolute;
+    top: 131px;
+    left: 1017px;
+    filter: blur(60px);
+    border-radius: 30px;
+    background: linear-gradient(#584d9b, #584d9b), #fff;
+    width: 402px;
+    height: 585px;
+}
+.cart-inner {
+    position: absolute;
+    top: 158px;
+    left: 1040px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    background-color: #ced8e7;
+    width: 356px;
+    height: 531px;
+}
+.explore-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #e6e7e9, #6f9bdd 43.4%, #564b9a 75.9%);
+    width: 271px;
+    height: 50px;
+}
+.proceed-to-payment {
+    position: absolute;
+    top: 7px;
+    left: 29px;
+    font-weight: 600;
+}
+.explore1 {
+    position: absolute;
+    top: 536px;
+    left: 1083px;
+    width: 271px;
+    height: 50px;
+    color: #fff;
+    font-family: Jost;
+}
+.rectangle-div {
+    position: absolute;
+    top: 229px;
+    left: 1083px;
+    border-radius: 30px;
+    background-color: #fff;
+    width: 271px;
+    height: 257px;
+}
+.razor-mouse-100 {
+    position: absolute;
+    top: 258px;
+    left: 1112px;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 217px;
+    opacity: 0.8;
+}
+.frame-child {
+    width: 816px;
+    position: relative;
+    border-radius: 30px;
+    background-color: #fff;
+    height: 508px;
+}
+.frame-div {
+    position: absolute;
+    top: calc(50% - 339px);
+    left: calc(50% - 647px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icon {
+    width: 297px;
+    position: relative;
+    height: 176px;
+    object-fit: cover;
+}
+.razor-mouse {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.div {
+    position: relative;
+    line-height: 110%;
+    font-weight: 600;
+}
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    font-size: 40px;
+}
+.header {
+    position: absolute;
+    top: 270px;
+    left: 171px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 12px;
+    font-size: 16px;
+}
+.total-100 {
+    width: 175px;
+    position: relative;
+    line-height: 110%;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.price2 {
+    position: absolute;
+    top: 448px;
+    left: 1104px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+.div2 {
+    position: absolute;
+    top: 427px;
+    left: 1083px;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 271px;
+    height: 38px;
+}
+.tech-treasure {
+    position: absolute;
+    top: 34px;
+    left: 635px;
+    line-height: 150%;
+}
+.buttons-icon {
+    width: 40px;
+    position: relative;
+    border-radius: 4px;
+    height: 40px;
+    object-fit: cover;
+}
+.social-icons {
+    position: absolute;
+    top: 132px;
+    left: 626px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.divider {
+    position: absolute;
+    top: 0.5px;
+    left: 79.5px;
+    border-top: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    width: 1281px;
+    height: 1px;
+}
+.github-icon {
+    position: absolute;
+    top: 140px;
+    left: 797px;
+    width: 56px;
+    height: 26px;
+    object-fit: cover;
+}
+.footer {
+    position: absolute;
+    top: 760px;
+    left: 0px;
+    width: 1440px;
+    height: 264px;
+    overflow: hidden;
+    color: #fff;
+    font-family: Poppins;
+}
+.cart {
+    width: 100%;
+    position: relative;
+    background-color: #554a99;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: #000;
+    font-family: Inter;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation div {
+    position: relative;
+    cursor: pointer;
+}
+
+.navigation div::before,
+.navigation div::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: purple;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.navigation div::before {
+    top: 0;
+}
+
+.navigation div::after {
+    bottom: 0;
+}
+
+.navigation div:hover::before,
+.navigation div:hover::after {
+    transform: scaleX(1);
+}
+
+.explore-item:hover,
+.explore-child:hover{
+    background: linear-gradient(90deg, #564b9a, #6f9bdd 43.4%, #e6e7e9);
+}

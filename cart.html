@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="cart.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="cart">
+    		<div class="box">
+    		</div>
+    		<div class="explore" id="exploreContainer">
+      			<div class="explore-child" id="rectangle">
+      			</div>
+      			<div class="sign-up">Sign Up</div>
+      			<img class="right-arrow-icon" alt="" src="./cart-image/Right Arrow.png">
+      			
+    		</div>
+    		<img class="logo" alt="" src="./cart-image/logo.png">
+    		
+    		<div class="navigation">
+      			<div class="home" id="homeText">Home </div>
+      			<div class="home" id="aboutText">About </div>
+      			<div class="home" id="productsText">Products</div>
+      			<div class="contact-us">Contact Us</div>
+      			<div class="home" id="storeText">Store </div>
+    		</div>
+    		<div class="cart-child">
+    		</div>
+    		<div class="cart-item">
+    		</div>
+    		<div class="cart-inner">
+    		</div>
+    		<div class="explore1">
+      			<div class="explore-item">
+      			</div>
+      			<div class="proceed-to-payment">proceed to payment</div>
+    		</div>
+    		<div class="rectangle-div">
+    		</div>
+    		<div class="razor-mouse-100">Razor Mouse        100$</div>
+    		<div class="frame-div">
+      			<div class="frame-child">
+      			</div>
+    		</div>
+    		<div class="header">
+      			<img class="icon" alt="" src="./cart-image/11.png">
+      			
+      			<div class="razor-mouse">Razor Mouse </div>
+      			<div class="price">
+        				<div class="div">$100</div>
+      			</div>
+    		</div>
+    		<div class="price2">
+      			<div class="total-100">TOTAL: 100$</div>
+    		</div>
+    		<div class="div2">  __________________________________</div>
+    		<div class="footer">
+      			<b class="tech-treasure">Tech Treasure</b>
+      			<div class="social-icons">
+                    <img  alt="facebook" src="./cart-image/Facebook.png">
+        				
+                    <img  alt="linkedIn" src="./cart-image/linkedIn.png">
+                    
+                    <img  alt="youtube" src="./cart-image/youtube.png">
+                    
+                    <img  alt="instagram" src="./cart-image/instagram.png">
+
+                    <img  alt="github" src="./cart-image/GitHub.png">
+        				
+      			</div>
+      			<div class="divider">
+      			</div>
+      			
+    		</div>
+  	</div>
+  	
+  	
+  	
+  	
+  	<script>
+    		var rectangle = document.getElementById("rectangle");
+    		if(rectangle) {
+      			rectangle.addEventListener("click", function (e) {
+        				window.location.href = "";
+      			});
+    		}
+    		
+    		var exploreContainer = document.getElementById("exploreContainer");
+    		if(exploreContainer) {
+      			exploreContainer.addEventListener("click", function (e) {
+        			window.location.href = "sign.html";
+      			});
+    		}
+    		
+    		var homeText = document.getElementById("homeText");
+    		if(homeText) {
+      			homeText.addEventListener("click", function (e) {
+        			window.location.href = "home.html";
+      			});
+    		}
+    		
+    		var aboutText = document.getElementById("aboutText");
+    		if(aboutText) {
+      			aboutText.addEventListener("click", function (e) {
+        			window.location.href = "about.html";
+      			});
+    		}
+    		
+    		var productsText = document.getElementById("productsText");
+    		if(productsText) {
+      			productsText.addEventListener("click", function (e) {
+        			window.location.href = "products.html";
+      			});
+    		}
+    		
+    		var storeText = document.getElementById("storeText");
+    		if(storeText) {
+      			storeText.addEventListener("click", function (e) {
+        			window.location.href = "store.html";
+      			});
+    		}
+    </script>
+    </body>
+</html>

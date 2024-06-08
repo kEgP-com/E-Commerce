@@ -1,0 +1,212 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+:root {
+    
+    /* fonts */
+    --font-jost: Jost;
+    --font-poppins: Poppins;
+    
+    /* font sizes */
+    --font-size-5xl: 24px;
+    
+    /* Colors */
+    --color-midnightblue: #120b3b;
+    --color-white: #fff;
+    
+    /* Border radiuses */
+    --br-11xl: 30px;
+    
+}
+.box-icon {
+    position: absolute;
+    top: calc(50% - 701.5px);
+    left: calc(50% - 815.5px);
+    width: 1991px;
+    height: 885px;
+}
+.globe {
+    position: absolute;
+    top: calc(50% - 343px);
+    left: calc(50% - 1110px);
+    width: 1250.6px;
+    height: 1119.1px;
+    object-fit: contain;
+}
+.sign-up1 {
+    position: relative;
+    font-weight: 600;
+}
+.right-arrow-icon {
+    width: 21px;
+    position: relative;
+    height: 41px;
+    object-fit: cover;
+}
+.sign-up {
+    position: absolute;
+    top: calc(50% - 477px);
+    left: calc(50% + 498px);
+    border-radius: 30px;
+    background: linear-gradient(90deg, #e6e7e9, #6f9bdd 43.4%, #564b9a 75.9%);
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4px 18px;
+    box-sizing: border-box;
+    gap: 16px;
+    cursor: pointer;
+}
+.text {
+    position: absolute;
+    top: calc(50% - 372px);
+    left: calc(50% - 429px);
+    font-size: 64px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #120b3b;
+    display: inline-block;
+    width: 1189px;
+    height: 156px;
+}
+.text-1 {
+    position: absolute;
+    top: calc(50% - 161px);
+    left: calc(50% - 79px);
+    font-size: 23px;
+    font-family: Poppins;
+    color: #000;
+    text-align: right;
+    display: inline-block;
+    width: 747px;
+    height: 276px;
+}
+.logo {
+    position: absolute;
+    top: calc(50% - 495px);
+    left: calc(50% - 678px);
+    width: 103px;
+    height: 101px;
+    object-fit: cover;
+}
+.about {
+    position: relative;
+    font-weight: 600;
+    cursor: pointer;
+}
+.navigation {
+    position: absolute;
+    top: calc(50% - 471px);
+    left: calc(50% - 218px);
+    width: 496px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    color: #120b3b;
+}
+.shop-now {
+    position: absolute;
+    top: 6px;
+    left: 16px;
+    font-weight: 600;
+}
+.right-arrow-icon1 {
+    position: absolute;
+    top: 6px;
+    left: 140px;
+    width: 21px;
+    height: 41px;
+    object-fit: cover;
+}
+.shop {
+    position: absolute;
+    top: 582px;
+    left: 793px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #e6e7e9, #6f9bdd 43.4%, #564b9a 75.9%);
+    width: 192px;
+    height: 53px;
+    cursor: pointer;
+}
+.right-arrow-icon2 {
+    position: absolute;
+    top: 6px;
+    left: 119px;
+    width: 21px;
+    height: 41px;
+    object-fit: cover;
+}
+.explore {
+    position: absolute;
+    top: 582px;
+    left: 1085px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #e6e7e9, #6f9bdd 43.4%, #564b9a 75.9%);
+    width: 190px;
+    height: 53px;
+}
+.home {
+    width: 100%;
+    position: relative;
+    background-color: #554a99;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: Jost;
+}
+
+
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation div {
+    position: relative;
+    cursor: pointer;
+}
+
+.navigation div::before,
+.navigation div::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: purple;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.navigation div::before {
+    top: 0;
+}
+
+.navigation div::after {
+    bottom: 0;
+}
+
+.navigation div:hover::before,
+.navigation div:hover::after {
+    transform: scaleX(1);
+}
+
+
+
+.sign-up:hover,
+.explore:hover,
+.shop:hover {
+    background: linear-gradient(90deg, #564b9a, #6f9bdd 43.4%, #e6e7e9);
+}

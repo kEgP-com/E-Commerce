@@ -1,0 +1,222 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+.box {
+    position: absolute;
+    top: calc(50% - 716px);
+    left: calc(50% - 878px);
+    filter: blur(150px);
+    background-color: #fff;
+    width: 1991px;
+    height: 885px;
+}
+.explore-child {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 91px);
+    border-radius: 30px;
+    background: linear-gradient(90deg, #e6e7e9, #6f9bdd 43.4%, #564b9a 75.9%);
+    width: 182px;
+    height: 50px;
+    cursor: pointer;
+}
+.sign-up {
+    position: absolute;
+    top: calc(50% - 19px);
+    left: calc(50% - 51px);
+    font-weight: 600;
+}
+.right-arrow-icon {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% + 52px);
+    width: 21px;
+    height: 41px;
+    object-fit: cover;
+}
+.explore {
+    position: absolute;
+    top: calc(50% - 477px);
+    left: calc(50% + 498px);
+    width: 182px;
+    height: 50px;
+    cursor: pointer;
+}
+.learn-more {
+    position: absolute;
+    top: calc(50% - 18px);
+    left: calc(50% - 62px);
+    font-weight: 600;
+}
+.explore1 {
+    position: absolute;
+    top: calc(50% + 158px);
+    left: calc(50% - 678px);
+    width: 182px;
+    height: 50px;
+}
+.wizzard {
+    position: absolute;
+    top: calc(50% - 427px);
+    left: calc(50% + 38px);
+    width: 733px;
+    height: 722px;
+    object-fit: cover;
+}
+.logo {
+    position: absolute;
+    top: calc(50% - 495px);
+    left: calc(50% - 678px);
+    width: 103px;
+    height: 101px;
+    object-fit: cover;
+}
+.home {
+    position: relative;
+    font-weight: 600;
+    cursor: pointer;
+}
+.contact-us1 {
+    position: relative;
+    font-weight: 600;
+}
+.navigation {
+    position: absolute;
+    top: calc(50% - 471px);
+    left: calc(50% - 218px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    color: #120b3b;
+}
+.contact-our-support {
+    margin: 0;
+}
+.contact-our-support-container {
+    position: absolute;
+    top: calc(50% - 209.5px);
+    left: calc(50% - 591px);
+    font-weight: 500;
+    display: inline-block;
+    width: 1189px;
+    height: 156px;
+}
+.description {
+    position: absolute;
+    top: calc(50% + 83.5px);
+    left: calc(50% - 591px);
+    font-size: 23px;
+    color: #000;
+    display: inline-block;
+    width: 711px;
+    height: 126px;
+}
+.linkedin-icon {
+    width: 65px;
+    position: relative;
+    height: 81px;
+    object-fit: cover;
+}
+.facebook-circled-icon {
+    width: 60px;
+    position: relative;
+    height: 74px;
+    object-fit: cover;
+}
+.instagram-circle-icon {
+    width: 58px;
+    position: relative;
+    height: 73px;
+    object-fit: cover;
+}
+.gmail-logo-icon {
+    width: 63px;
+    position: relative;
+    height: 71px;
+    object-fit: cover;
+}
+.github-icon {
+    width: 63px;
+    position: relative;
+    height: 74px;
+    object-fit: cover;
+}
+.social-media {
+    position: absolute;
+    top: calc(50% - 17.5px);
+    left: calc(50% - 598px);
+    width: 381px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 50px;
+}
+.contact-our-support-team-and-s-parent {
+    position: absolute;
+    top: calc(50% - 286px);
+    left: calc(50% - 680px);
+    width: 1196px;
+    height: 419px;
+    font-size: 55px;
+    color: #120b3b;
+    font-family: Poppins;
+}
+.contact-us {
+    width: 100%;
+    position: relative;
+    background-color: #554a99;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: Jost;
+}
+
+
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation div {
+    position: relative;
+    cursor: pointer;
+}
+
+.navigation div::before,
+.navigation div::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: purple;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.navigation div::before {
+    top: 0;
+}
+
+.navigation div::after {
+    bottom: 0;
+}
+
+.navigation div:hover::before,
+.navigation div:hover::after {
+    transform: scaleX(1);
+}
+.explore-child:hover {
+    background: linear-gradient(90deg, #564b9a, #6f9bdd 43.4%, #e6e7e9);
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="sign.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="sign-up-page">
+    		<div class="box">
+    		</div>
+    		<img class="vector-icon" alt="vector-icon" src="./sign-up-image/Vector.png">
+    		
+    		<div class="content-parent">
+      			<div class="content">
+        				<div class="copy">
+          					<div class="create-an-account">Create an account</div>
+          					<div class="enter-your-email">Enter your email to sign up for this app</div>
+        				</div>
+        				<div class="input-and-button">
+          					<div class="field">
+                                <input type="email" id="emailInput" placeholder="email@domain.com">
+          					</div>
+          					<div class="button" id="signInButton">
+            						<div class="primary">Sign up with email</div>
+          					</div>
+        				</div>
+        				<div class="divider">
+          					<div class="divider-child">
+          					</div>
+          					<div class="or-continue-with">or continue with</div>
+          					<div class="divider-child">
+          					</div>
+        				</div>
+        				<div class="button1" id="signInGoogleButton">
+          					<div class="secondary" >Google</div>
+          					<img class="google-icon" src="./sign-up-image/Google.png">
+          					
+        				</div>
+        				<div class="by-clicking-continue-container">
+          					<span>By clicking continue, you agree to our </span>
+          					<span class="terms-of-service">Terms of Service</span>
+          					<span> and</span>
+          					<span class="privacy-policy"> Privacy Policy</span>
+        				</div>
+      			</div>
+      			<img class="logo" alt="logo" src="./sign-up-image/logo.png">
+      			
+    		</div>
+  	</div>
+  	
+  	
+  	<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var signInButton = document.getElementById("signInButton");
+        var signInGoogleButton = document.getElementById("signInGoogleButton");
+
+        if(signInButton) {
+            signInButton.addEventListener("click", function() {
+                signInButton.innerHTML = "Signing in...";
+                setTimeout(function() {
+                    window.location.href = "home.html";
+                }, 3000); 
+            });
+        }
+
+        if(signInGoogleButton) {
+            signInGoogleButton.addEventListener("click", function() {
+                signInGoogleButton.innerHTML = "Signing in with Google...";
+                setTimeout(function() {
+                    window.location.href = "home.html";
+                }, 3000); 
+            });
+        }
+    });
+
+
+    </script>
+  	
+</body>
+</html>

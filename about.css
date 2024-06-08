@@ -1,0 +1,198 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+.blank-line {
+    margin: 0;
+}
+.container {
+    position: absolute;
+    top: calc(50% + 254px);
+    left: calc(50% - 672px);
+    display: inline-block;
+    width: 723px;
+    height: 341px;
+}
+.box {
+    position: absolute;
+    top: calc(50% - 865px);
+    left: calc(50% - 878px);
+    filter: blur(150px);
+    background-color: #fff;
+    width: 1991px;
+    height: 885px;
+}
+.explore-child {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 91px);
+    border-radius: 30px;
+    background: linear-gradient(90deg, #e6e7e9, #6f9bdd 43.4%, #564b9a 75.9%);
+    width: 182px;
+    height: 50px;
+}
+.sign-up {
+    position: absolute;
+    top: calc(50% - 19px);
+    left: calc(50% - 51px);
+    font-weight: 600;
+}
+.right-arrow-icon {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% + 52px);
+    width: 21px;
+    height: 41px;
+    object-fit: cover;
+}
+.explore {
+    position: absolute;
+    top: calc(50% - 626px);
+    left: calc(50% + 498px);
+    width: 182px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: Jost;
+}
+.about-us1 {
+    position: absolute;
+    top: calc(50% - 500px);
+    left: calc(50% - 565px);
+    font-size: 64px;
+    font-weight: 500;
+    color: #120b3b;
+    text-align: center;
+    display: inline-block;
+    width: 1189px;
+    height: 156px;
+}
+.wizzard {
+    position: absolute;
+    top: calc(50% - 576px);
+    left: calc(50% - 664px);
+    width: 625px;
+    height: 625px;
+    object-fit: cover;
+}
+.welcome-to-tech {
+    margin: 0;
+    font-weight: 600;
+}
+.at-tech-treasure {
+    margin: 0;
+    white-space: pre-wrap;
+}
+.container {
+    position: absolute;
+    top: calc(50% - 315px);
+    left: calc(50% - 53px);
+    color: #000;
+    display: inline-block;
+    width: 733px;
+    height: 276px;
+}
+.logo {
+    position: absolute;
+    top: calc(50% - 644px);
+    left: calc(50% - 678px);
+    width: 103px;
+    height: 101px;
+    object-fit: cover;
+}
+.home {
+    position: relative;
+    font-weight: 600;
+    cursor: pointer;
+}
+.about {
+    position: relative;
+    font-weight: 600;
+}
+.navigation {
+    position: absolute;
+    top: calc(50% - 620px);
+    left: calc(50% - 218px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    font-size: 24px;
+    color: #120b3b;
+    font-family: Jost;
+}
+.who-are-we {
+    margin: 0;
+    font-weight: 600;
+    color: #000;
+}
+.sec-container {
+    position: absolute;
+    top: calc(50% + 4px);
+    left: calc(50% - 664px);
+    display: inline-block;
+    width: 717px;
+    height: 313px;
+}
+.icon {
+    position: absolute;
+    top: calc(50% - 0px);
+    left: calc(50% + 102px);
+    width: 712.9px;
+    height: 764.8px;
+    object-fit: contain;
+}
+.about-us {
+    width: 100%;
+    position: relative;
+    background-color: #554a99;
+    height: 1322px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 23px;
+    color: #fff;
+    font-family: Poppins;
+}
+
+
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation div {
+    position: relative;
+    cursor: pointer;
+}
+
+.navigation div::before,
+.navigation div::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: purple;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.navigation div::before {
+    top: 0;
+}
+
+.navigation div::after {
+    bottom: 0;
+}
+
+.navigation div:hover::before,
+.navigation div:hover::after {
+    transform: scaleX(1);
+}
+.explore-child:hover{
+    background: linear-gradient(90deg, #564b9a, #6f9bdd 43.4%, #e6e7e9);
+}

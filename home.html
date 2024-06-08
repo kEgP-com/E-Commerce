@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet"  href="home.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" />
+  	
+  	
+  	
+</head>
+<body>
+  	
+  	<div class="home">
+    		<img class="box-icon" alt="box" src="./home-image/box.png">
+    		
+    		<img class="globe" alt="" src="./home-image/globe.png">
+    		
+    		<div class="sign-up" id="signUpContainer">
+      			<div class="sign-up1">Sign Up</div>
+      			<img class="right-arrow-icon" alt="" src="./home-image/Right Arrow.png">
+      			
+    		</div>
+    		<div class="text">The Goldmine of Technology</div>
+    		<div class="text-1">Your Destination for Cutting-Edge Gadgets. Explore the latest in technology, uncover hidden gems, and stay ahead with our curated selection of groundbreaking gadgets and insightful reviews. Your journey to tech excellence starts here.</div>
+    		<img class="logo" alt="logo" src="./home-image/logo.png">
+    		
+    		<div class="navigation">
+      			<div class="sign-up1">Home </div>
+      			<div class="about" id="aboutText">About </div>
+      			<div class="about" id="productsText">Products</div>
+      			<div class="about" id="contactUsText">Contact Us</div>
+      			<div class="about" id="storeText">Store </div>
+    		</div>
+    		<div class="shop" id="shopContainer">
+      			<div class="shop-now">Shop now!</div>
+      			<img class="right-arrow-icon1" alt="" src="./home-image/Right Arrow.png">
+      			
+    		</div>
+    		<div class="explore" id="exploreContainer">
+      			<div class="shop-now">Explore</div>
+      			<img class="right-arrow-icon2" alt="" src="./home-image/Right Arrow.png">
+      			
+    		</div>
+  	</div>
+  	
+  	
+  	
+  	
+  	<script>
+    		var signUpContainer = document.getElementById("signUpContainer");
+    		if(signUpContainer) {
+      			signUpContainer.addEventListener("click", function (e) {
+        				window.location.href="sign.html";
+      			});
+    		}
+    		
+    		var aboutText = document.getElementById("aboutText");
+    		if(aboutText) {
+      			aboutText.addEventListener("click", function (e) {
+					window.location.href="about.html";
+      			});
+    		}
+    		
+    		var productsText = document.getElementById("productsText");
+    		if(productsText) {
+      			productsText.addEventListener("click", function (e) {
+        			window.location.href="products.html";
+      			});
+    		}
+    		
+    		var contactUsText = document.getElementById("contactUsText");
+    		if(contactUsText) {
+      			contactUsText.addEventListener("click", function (e) {
+        			window.location.href="contact.html";
+      			});
+    		}
+    		
+    		var storeText = document.getElementById("storeText");
+    		if(storeText) {
+      			storeText.addEventListener("click", function (e) {
+        			window.location.href="store.html";
+      			});
+    		}
+    		
+    		var shopContainer = document.getElementById("shopContainer");
+    		if(shopContainer) {
+      			shopContainer.addEventListener("click", function (e) {
+        			window.location.href="store.html";
+      			});
+    		}
+			var exploreContainer = document.getElementById("exploreContainer");
+    		if(exploreContainer) {
+				exploreContainer.addEventListener("click", function (e) {
+        			window.location.href="products.html";
+      			});
+    		}
+	</script>
+	</body>
+</html>
