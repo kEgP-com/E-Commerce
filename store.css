@@ -652,6 +652,10 @@ body {
     font-size: inherit;
     color: inherit;
 }
+.button-new:hover,
+.button12:hover{
+    background: linear-gradient(90deg, #9b9b9d, #d4d6d9 43.4%, #716d6d);
+}
 .explore-item:hover,
 .explore-child:hover{
     background: linear-gradient(90deg, #564b9a, #6f9bdd 43.4%, #e6e7e9);
