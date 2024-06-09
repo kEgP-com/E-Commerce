@@ -30,7 +30,7 @@
       			<div class="home" id="homeText">Home </div>
       			<div class="home" id="aboutText">About </div>
       			<div class="home" id="productsText">Products</div>
-      			<div class="contact-us">Contact Us</div>
+      			<div class="contact-us  id="contactText">Contact Us</div>
       			<div class="home" id="storeText">Store </div>
     		</div>
     		<div class="cart-child">
@@ -126,6 +126,12 @@
     		if(storeText) {
       			storeText.addEventListener("click", function (e) {
         			window.location.href = "store.html";
+      			});
+    		}
+      var contactText = document.getElementById("contactText");
+    		if(contactText) {
+      			contactText.addEventListener("click", function (e) {
+        			window.location.href = "contact.html";
       			});
     		}
     </script>
