@@ -605,7 +605,13 @@ body {
     color: #fff;
     font-family: Jost;
 }
-
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;
+    z-index: 9999; 
+    cursor: pointer;
+}
 
 
 .navigation {
