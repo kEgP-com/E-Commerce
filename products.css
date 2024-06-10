@@ -615,7 +615,10 @@ body {
     z-index: 9999; 
     cursor: pointer;
 }
-
+.send-letter-icon {
+            width: 50px;
+            height: auto;
+}
 
 .navigation {
     display: flex;
