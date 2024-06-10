@@ -26,7 +26,7 @@
     		</div>
     		<img class="logo" alt="product" src="./image-product/logo.png">
     		
-    		<div class="navigation">
+    		<div class="navigation" id="header">
       			<div class="home" id="homeText">Home </div>
       			<div class="home" id="aboutText">About </div>
       			<div class="products1">Products</div>
@@ -342,12 +342,25 @@
       			<div class="text">E</div>
       			<div class="text">S</div>
     		</div>
+		<div class="scroll-to-top" id="scrollToTop">
+                <img class="send-letter-icon" alt="arrow" src="./images/Send Letter.png">
+            </div>
   	</div>
   	
   	
   	
   	
   	<script>
+
+		document.addEventListener("DOMContentLoaded", function() {
+                var scrollToTopBtn = document.getElementById("scrollToTop");
+
+                scrollToTopBtn.addEventListener("click", function() {
+                    var header = document.getElementById("header");
+                    header.scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+
     		var exploreContainer = document.getElementById("exploreContainer");
     		if(exploreContainer) {
       			exploreContainer.addEventListener("click", function (e) {
