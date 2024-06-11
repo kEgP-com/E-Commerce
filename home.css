@@ -6,19 +6,15 @@ body {
 
 
 :root {
-    
-    /* fonts */
+
     --font-jost: Jost;
     --font-poppins: Poppins;
-    
-    /* font sizes */
+
     --font-size-5xl: 24px;
     
-    /* Colors */
     --color-midnightblue: #120b3b;
     --color-white: #fff;
     
-    /* Border radiuses */
     --br-11xl: 30px;
     
 }
